@@ -1,7 +1,4 @@
-import { useState } from 'react'
-import { Button } from './components/ui/button'
 import { ThemeProvider } from './components/theme-provider'
-import { ModeToggle } from './components/mode-toggle'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Login from './pages/Login'
@@ -10,7 +7,6 @@ import { Toaster } from './components/ui/toaster'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">

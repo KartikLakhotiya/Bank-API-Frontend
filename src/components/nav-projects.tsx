@@ -24,7 +24,6 @@ import {
   SidebarMenuItem,
   useSidebar,
 } from "@/components/ui/sidebar"
-import { ModeToggle } from "./mode-toggle"
 
 export function NavProjects({
   projects,
