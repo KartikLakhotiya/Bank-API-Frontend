@@ -9,7 +9,7 @@ import Home from './pages/Home';
 function App() {
 
   const { authUser } = useAuthStore();
-
+  console.log(authUser);
   return (
       <Router>
         <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">

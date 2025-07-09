@@ -27,7 +27,7 @@ const Login = () => {
         <div>
             <Card className="w-[430px] mr-auto ml-auto mt-8">
                     <CardHeader>
-                        <CardTitle>Fetch Account</CardTitle>
+                        <CardTitle>Login to your Account</CardTitle>
                         <CardDescription>
                             Fetch details of your account.
                         </CardDescription>

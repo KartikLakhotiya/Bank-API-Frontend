@@ -26,6 +26,9 @@ const Home = () => {
                         <div className="flex flex-col space-y-1.5">
                             <p className="text-lg">
                                 Full Name : <b>{authUser.firstName} {' '} { authUser.lastName}</b>
+                          </p>
+                          <p className="text-lg">
+                              Balance : <b>{authUser.balance}</b>
                             </p>
                             <p className="text-lg">
                                 Last Login : <b>{authUser.lastLogin}</b>
